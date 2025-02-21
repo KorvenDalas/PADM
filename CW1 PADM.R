@@ -28,11 +28,11 @@ library(AER)       # For Applied Econometrics
 
 
 # Set the working directory
-setwd("C:/Users/w1834001/Downloads")
+setwd("C:/Downloads")
 getwd()
 
 # Read in the dataset
-df <- read_excel("PADM - CW1 nls80.xlsx")
+df <- read_excel("nls80.xlsx")
 
 # Check the structure of the data
 str(df)
